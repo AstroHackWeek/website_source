@@ -5,8 +5,8 @@ Below is the list of all hacks that were worked on during Astro Hack Week 2014, 
 
 ## On Deck
 
-* Next Blogger, `date`: **title** (linked to hackpad etc)
-* Next Blogger, `date`: **title** (linked to hackpad etc)
+* GULLY.  `Friday, September 26, 2014`: **[HACK DA BOOK FIGS](gully.github.io/astroMLfigs)**
+* @ADRN, Sunday, September 28, 2014: **Cell macros / snippets in the IPython Notebook**
 * Next Blogger, `date`: **title** (linked to hackpad etc)
 
 ## Home Runs
