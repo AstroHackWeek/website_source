@@ -1,10 +1,10 @@
 <!--
-.. title: Hack-the-textbook-figures
+.. title: Hack the textbook figures
 .. slug: Hack-the-textbook-figures
-.. date: 2014-10-03 17:00:00 UTC-07:00
-.. tags: hacking, visualization, statistics
+.. date: 2014-10-05 11:00:00 UTC-07:00
+.. tags: hacking, visualization, statistics, machine learning, IPython Notebook
 .. author: Michael Gully-Santiago
-.. link: gully.github.io/astroMLfigs
+.. link:
 .. description: Hacking on the Statistics, Data Mining, and Machine Learning in Astronomy Textbook figures
 .. type: text
 -->
@@ -272,9 +272,9 @@ if(typeof(mpld3) !== "undefined" && mpld3._mpld3IsLoaded){
 }
 </script>
 
-
-
-So on Wednesday of the Hack Week a table of about 8 of us all hacked the book figures.  The figure above is one of those figures, hacked by Beth Reid and Phil Marshall.  Beth and Phil *pair-coded* on Figure 8.10 (*c.f.* [the original figure](http://www.astroml.org/book_figures/chapter8/fig_gp_example.html)).  This choice of figure and its redesign were both inspired by Hack Week breakout sessions!  Specifically, Dan Foreman-Mackey's Gaussian Process breakout on Monday, and Jake's breakout on [D3.js](http://d3js.org/) and his matplotlib wrapper for it, [MPLD3](http://mpld3.github.io/).  As you can see, Beth and Phil's figure shows a special hover-over effect for different realizations of the Gaussian Process curves consistent with the data points.  See the textbook, the figure caption, and/or [Dan's Gaussian Process Tutorial](https://speakerdeck.com/dfm/an-astronomers-introduction-to-gaussian-processes-v2) for further discussion.
+So on Wednesday of the Hack Week a table of about 8 of us all hacked the book figures.  The figure above is one of those figures, 
+<!-- TEASER_END -->
+hacked by Beth Reid (BIDS) and Phil Marshall (SLAC).  Beth and Phil *pair-coded* on Figure 8.10 (*c.f.* [the original figure](http://www.astroml.org/book_figures/chapter8/fig_gp_example.html)).  This choice of figure and its redesign were both inspired by Hack Week breakout sessions!  Specifically, Dan Foreman-Mackey's Gaussian Process breakout on Monday, and Jake's breakout on [D3.js](http://d3js.org/) and his matplotlib wrapper for it, [MPLD3](http://mpld3.github.io/).  As you can see, Beth and Phil's figure shows a special hover-over effect for different realizations of the Gaussian Process curves consistent with the data points.  See the textbook, the figure caption, and/or [Dan's Gaussian Process Tutorial](https://speakerdeck.com/dfm/an-astronomers-introduction-to-gaussian-processes-v2) for further discussion.
 
 Hack Week participants Wilma Trick and Michael Walther (MPIA Heidelberg, Germany) hacked on Figure 9.14, [available here](http://gully.github.io/astroMLfigs/html/fig09_14.html).  Ruth Angus (Oxford, currently a pre-doctoral visitor at CfA) made an interactive version of Figure 9.2 using IPython Notebooks.
 Specifically, she changed the mean center positions of the two clusters of points in the figures to address the question-  "What happens if the classification boundary is not so obvious?  How does the classifier grapple with uncertainty?"  It was fascinating to see the classification boundary update in real-time as Ruth dragged the `interact()` slider left and right.
